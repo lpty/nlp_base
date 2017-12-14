@@ -1,0 +1,19 @@
+# project temp files
+*.pyc
+*.log
+_build/
+temp/
+
+# pycharm temp files
+.idea/
+
+# mac temp files
+.DS_Store
+
+# wheel temp files
+build/
+*.egg-info/
+
+# Vim temp files
+*.swp
+*.swo

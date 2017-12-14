@@ -1,0 +1,4 @@
+Sphinx>=1.6.4
+jieba>=0.38
+numpy>=1.13.1
+fasttext>=0.8.3
