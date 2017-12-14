@@ -3,7 +3,7 @@
 
 ## 模型效果
 使用京东80w条评论数据训练，10ｗ条评论数据测试:
-### 模型参数
+#### 模型参数
 
     lr = 0.01
     lr_update_rate = 100
@@ -15,37 +15,37 @@
     bucket = 2000000
     thread = 4
 
-### 效果
+#### 效果
 
     ('precision:', 0.85055)
     ('recall:', 0.85055)
     ('examples:', 100000)
 
 ## 快速开始
-### 语料分词处理
+#### 语料分词
 
     python manage.py cut
 
-### 模型训练
+#### 模型训练
 
     python manage.py train
 
-### 模型测试
+#### 模型测试
 
     python manage.py test
 
-##　文档
-### 代码文档
+## 文档
+#### 代码文档
 基于sphnix生成,请确保已经安装
 
     cd doc
     make html
 
-### 博客
+#### 博客
 博客地址:
 
 ## 参考
-### Enriching Word Vectors with Subword Information
+#### Enriching Word Vectors with Subword Information
 
 [1] P. Bojanowski\*, E. Grave\*, A. Joulin, T. Mikolov, [*Enriching Word Vectors with Subword Information*](https://arxiv.org/pdf/1607.04606v1.pdf)
 
@@ -58,7 +58,7 @@
 }
 ```
 
-### Bag of Tricks for Efficient Text Classification
+#### Bag of Tricks for Efficient Text Classification
 
 [2] A. Joulin, E. Grave, P. Bojanowski, T. Mikolov, [*Bag of Tricks for Efficient Text Classification*](https://arxiv.org/pdf/1607.01759v2.pdf)
 
