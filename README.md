@@ -42,7 +42,7 @@
     make html
 
 #### 博客
-博客地址:
+博客地址:http://blog.csdn.net/sinat_33741547/article/details/78803766
 
 ## 参考
 #### Enriching Word Vectors with Subword Information
