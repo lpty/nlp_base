@@ -3,6 +3,7 @@
 *.log
 _build/
 temp/
+data/
 
 # pycharm temp files
 .idea/

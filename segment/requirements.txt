@@ -1,0 +1,4 @@
+demjson>=2.2.4
+hmmlearn>=0.2.0
+numpy>=1.12.1
+Sphinx>=1.6.4
