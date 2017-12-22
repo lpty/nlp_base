@@ -24,6 +24,4 @@
     make html
 
 ### 博客
-博客地址
-
-# 参考
+博客地址：http://blog.csdn.net/sinat_33741547/article/details/78870575
