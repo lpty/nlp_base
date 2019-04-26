@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 import sys
-from sentiment.api import *
+from sentiment.src.api import *
 
 
 def manage():
@@ -14,6 +13,7 @@ def manage():
     else:
         print('Args must in ["cut", "train", "test"].')
     sys.exit()
+
 
 if __name__ == '__main__':
     manage()

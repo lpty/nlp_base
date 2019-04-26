@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 import sys
-from depparser.api import *
+from depparser.src.api import *
 
 
 def manage():
@@ -12,6 +11,7 @@ def manage():
     else:
         print('Args must in ["parser", "train"].')
     sys.exit()
+
 
 if __name__ == '__main__':
     manage()

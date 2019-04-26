@@ -23,3 +23,6 @@
 # 参考
 
     1、《基于序列标注的中文依存句法分析方法》 计峰 邱锡鹏
+    2、http://tcci.ccf.org.cn/conference/2013/dldoc/evsam05.zip 
+    3、http://nlp.nju.edu.cn/tanggc/tools/DependencyViewer.html
+    
