@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 import sys
-from postagger.api import *
+from postagger.src.api import *
 
 
 def manage():
@@ -12,6 +11,7 @@ def manage():
     else:
         print('Args must in ["extract", "train"].')
     sys.exit()
+
 
 if __name__ == '__main__':
     manage()

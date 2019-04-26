@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from interrogative.api import *
+from interrogative.src.api import *
 
 train()
 tag = recognize(u'今天 来 点 兔子 吗')
