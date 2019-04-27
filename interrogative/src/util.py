@@ -6,6 +6,11 @@ tools
 """
 import demjson
 
+try:
+    unichr        # Python 2
+except NameError:
+    unichr = chr  # Python 3
+
 
 def to_json(text):
     return demjson.decode(text, encoding='utf-8')
