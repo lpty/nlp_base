@@ -13,6 +13,11 @@ from interrogative.src.util import to_json
 
 __model = None
 
+try:
+    unicode
+except NameError:
+    unicode = str
+
 
 class Interrogative:
     """
